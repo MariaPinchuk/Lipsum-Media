@@ -1,0 +1,158 @@
+.header {
+    padding-bottom: 45px;
+}
+
+.header_top {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.header_subscribe {
+    flex-basis: 39%;
+    background-color: #faa61a;
+    padding: 5px 0 7px 21px;
+    margin-top: 1px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.subscribe_field {
+    width: 55%;
+}
+
+.subscribe_link {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+.twitter_link {
+    border-left: 1px solid white;
+    padding-left: 7px;
+}
+
+.fb_link {
+    border-left: 1px solid white;
+    padding-left: 10px;
+    padding-right: 7px;
+}
+
+.header_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.header_logo {
+    display: flex;
+    align-items: baseline;
+    font-size: 41px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header_logo img {
+    padding-right: 20px;
+}
+
+.header_logo h2 {
+    font-weight: 300;
+}
+
+.header_logo strong {
+    font-weight: 700;
+}
+
+.header_navigation {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.header_navigation a {
+    text-decoration: none;
+}
+
+.header_navigation img {
+    padding: 0 10px;
+}
+
+@media (max-width: 980px) {
+
+    .header_logo {
+        font-size: 31px;
+    }
+}
+
+@media (max-width: 910px) {
+
+    .header_bottom {
+        flex-direction: column;
+    }
+
+    .header_subscribe {
+        flex-basis: 44%;
+    }
+
+    .header_navigation {
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 640px) {
+
+    .header_subscribe {
+        flex-basis: 50%;
+    }
+}
+
+@media (max-width: 570px) {
+
+    .header_subscribe {
+        flex-basis: 53%;
+    }
+
+    .header_logo {
+        font-size: 28px;
+    }
+
+    .header_navigation {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 544px) {
+
+    .header_subscribe {
+        flex-basis: 100%;
+    }
+
+    .header_top {
+        justify-content: flex-start;
+    }
+
+    .header_logo {
+        font-size: 26px;
+    }
+
+    .header_navigation {
+        flex-direction: column;
+        font-size: 25px;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 350px) {
+
+    .header_logo {
+        font-size: 23px;
+    }
+
+    .header_navigation {
+        font-size: 22px;
+    }
+}

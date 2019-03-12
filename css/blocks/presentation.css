@@ -1,0 +1,106 @@
+.presentation {
+    background-color: #faa61a;
+    padding: 0 0 38px 0;
+}
+
+.presentation_top h1 {
+    font-size: 124px;
+    padding: 29px 55px;
+    font-family: 'Six Caps', sans-serif;
+    letter-spacing: 11px;
+}
+
+.presentation_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding-right: 4%;
+}
+
+.panda_img {
+    flex-basis: 52%;
+    padding: 0 0 0 55px;
+    position: relative;
+}
+
+.panda_layer {
+    position: absolute;
+}
+
+.panda_layer2 {
+    top: 40%;
+    left: 54%;
+}
+
+.panda_layer3 {
+    background-color: black;
+    opacity: 0.7;
+    padding: 0 10px;
+    top: 5%;
+    left: 6%;
+}
+
+.panda_layer3 p {
+    line-height: 43px;
+    color: #ffffff;
+    font-style: italic;
+    font-size: 28px;
+}
+
+.panda_layer4 {
+    top: 83%;
+    left: 17%;
+}
+
+.panda_layer5 {
+    top: 83%;
+    left: 36%;
+}
+
+.panda_layer6 {
+    top: 83%;
+    left: 55%;
+}
+
+.project-information {
+    flex-basis: 21%;
+    background-color: black;
+    color: white;
+    max-width: 201px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-right: 36px;
+}
+
+.project-information_name {
+    background-color: white;
+    color: black;
+    width: max-content;
+    padding: 0 5px;
+    margin: 18px 0 8px 0;
+    font-weight: bold;
+}
+
+.project-information p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+}
+
+.project-description {
+    flex-basis: calc(1044px - 73%);
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.project-description h4 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px 0 2px 13px;
+}
+
+.project-description p{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    padding: 10px 15px 0px 15px;
+}

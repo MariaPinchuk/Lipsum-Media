@@ -1,0 +1,13 @@
+.our-clients {
+    margin-top: 57px;
+    margin-bottom: 100px;
+}
+
+.our-clients_title {
+    padding: 0 0 0 35px;
+}
+
+.our-clients_img {
+    display: flex;
+    justify-content: center;
+}
