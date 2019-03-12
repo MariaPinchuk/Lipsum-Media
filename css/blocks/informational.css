@@ -1,0 +1,121 @@
+.informational {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    margin-top: 35px;
+    padding: 0;
+}
+
+.informational_title {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    line-height: 22px;
+    padding-bottom: 25px;
+}
+
+.our-services {
+    flex-basis: 21%;
+    padding: 25px 30px 26px 0;
+}
+
+.our-services_nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.our-services_button_arrow {
+    padding: 0 4px;
+    text-decoration: none;
+}
+
+.our-services_link {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    line-height: 23px;
+    padding-left: 12px;
+}
+
+.our-services_row {
+    padding: 10px 0;
+}
+
+.informational_title_orange {
+    color: #faa61a;
+}
+
+.did-you-know {
+    flex-basis: 32%;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 25px 43px 26px 43px;
+}
+
+.did-you-know_text {
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.did-you-know_button_text {
+    padding: 0 4px
+}
+
+.did-you-know_button_arrow {
+    padding: 0 4px;
+}
+
+.did-you-know_button {
+    margin-top: 35px;
+}
+
+.contact {
+    flex-basis: 25%;
+    padding: 25px 0 26px 50px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.contact-info_row{
+    display: flex;
+    align-items: center;
+    padding: 10px 0 10px 0;
+}
+
+.contact-info_img_phone {
+    padding: 0 7px 0 8px;
+}
+
+.contact-info_img_letter {
+    padding-left: 1px;
+}
+
+.contact-info_row p {
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+    display: block;
+    padding: 0 5px;
+}
+
+.contact-info_row_number {
+    font-weight: bold;
+}
+
+.contact-info_row_house {
+    align-items: start;
+}
+
+.contact-info_row_container p {
+    margin: 5px 20px;
+}
+
+
+
+

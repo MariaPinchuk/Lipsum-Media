@@ -1,0 +1,28 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.footer_logo {
+    font-size: 26px;
+}
+
+.footer_nav {
+    border-bottom: 1px solid gray;
+    padding: 20px 0 5px 260px;
+    margin-bottom: 10px;
+}
+
+.footer_nav a {
+    padding-left: 20px;
+    font-size: 12px;
+    color: black;
+}
+
+.footer_signature {
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-end;
+}
